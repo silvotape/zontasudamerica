@@ -1,4 +1,4 @@
-Soy Silvia! Tengo 36 años, de Uruguay. Hace años me dediqué al rubro de Networking y soluciones de Comunicaciones Unificadas y hoy decidi hacer un cambio de rubro y volcarme por esta nueva área que tanto me apasiona.
+Soy Silvia! Tengo 36 años, de Uruguay. Hace años que me dedico al rubro de Networking y soluciones de Comunicaciones Unificadas y hoy decidi hacer un cambio de rubro y volcarme por esta nueva área que tanto me apasiona.
 -----------------------------------------------------------------------------------------------------------
 ¿Cómo nace la idea de este proyecto?
 
