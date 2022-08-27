@@ -23,8 +23,7 @@
 	}
 
 iframe{
- 	width: 80px;
- 	height: 80px;
+ 	width: 50%;
  }
 
  .carousel{
@@ -107,6 +106,11 @@ aside{
 	animation: bg 5s infinite;
 	overflow:hidden;
 }	
+
+iframe{
+ 	width: 80px;
+ 	height: 80px;
+ }
 
 form{
 	width:300px;

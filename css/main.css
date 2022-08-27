@@ -474,8 +474,7 @@ textarea {
     padding: 45px;
   }
   iframe {
-    width: 80px;
-    height: 80px;
+    width: 50%;
   }
   .carousel {
     width: 90%;
@@ -527,6 +526,10 @@ textarea {
     background-color: #fff;
     animation: bg 5s infinite;
     overflow: hidden;
+  }
+  iframe {
+    width: 80px;
+    height: 80px;
   }
   form {
     width: 300px;
