@@ -6,10 +6,10 @@ Surge de la necesidad de que la organizacion Zonta, requiere un sitio web para l
 -----------------------------------------------------------------------------------------------------------
 ¿Qué contiene este repositorio?
 
-- Wireframes
+- Wireframes: Se suben los entregados al inicio del proyecto, con el correr del mismo, se han modificado los vínculos de "Ingresar" y "Queres Donar?" a un nuevo submenú denominado "Mi Zonta" dentro del Nabvar para que en vista mobile quedaran todas las opciones dentro del menú hamburguesa. 
 - Deploy de todo el sitio web.
-- Presupuesto: www.com
-- Consideraciones ara SEO: www.seo.com
+- Presupuesto
+- Consideraciones para SEO.
 - gitignore
 - Link al servidor externo: www.weel.com
 -----------------------------------------------------------------------------------------------------------
