@@ -17,9 +17,9 @@ Surge de la necesidad de que la organizacion Zonta, requiere un sitio web para l
 
 Encontraremos 8 páginas web:
 
-index --> Página de inicio.
-nuestras_causas, nuestros_programas, novedades_y_eventos y sobre_nosotros --> Páginas informativas.
-contacto, ingresar y donar --> Formularios
+- index --> Página de inicio.
+- nuestras_causas, nuestros_programas, novedades_y_eventos y sobre_nosotros --> Páginas informativas.
+- contacto, ingresar y donar --> Formularios
 -----------------------------------------------------------------------------------------------------------
 ¿Cómo está pensado el código en mi proyecto?
 
