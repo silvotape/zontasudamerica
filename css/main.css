@@ -474,7 +474,8 @@ textarea {
     padding: 45px;
   }
   iframe {
-    width: 50%;
+    width: 80px;
+    height: 80px;
   }
   .carousel {
     width: 90%;
