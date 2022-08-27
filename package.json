@@ -1,0 +1,24 @@
+{
+  "name": "git-repositorio",
+  "version": "1.0.0",
+  "description": "Se diseña sitio web para la organizacion Zonta Internacional Region Sudamerica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvotape/zontasudamerica.git"
+  },
+  "author": "Silvia Perelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvotape/zontasudamerica/issues"
+  },
+  "homepage": "https://github.com/silvotape/zontasudamerica#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}

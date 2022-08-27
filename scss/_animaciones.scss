@@ -1,0 +1,93 @@
+
+// ANIMACIONES DE INDEX.HTML
+
+//Carrousel
+
+.carousel{
+  display: flex;
+  width: 80%;
+  align-content: center;
+  align-items: center;
+  margin: 50px auto;
+  border-radius:50px;
+  box-shadow: 10px 10px $lightblue;
+  blur:5px;
+}
+
+
+//Sección Involucrarse
+
+.img_inv1{
+  animation: slide-in1 4000ms;
+  cursor: pointer;
+}
+
+.img_inv2{
+  animation: slide-in2 3500ms;
+  cursor: pointer;
+
+  }
+
+.img_inv3{
+  animation: slide-in3 2000ms;
+  cursor: pointer;
+
+  }
+
+@keyframes slide-in1 {
+    from {
+      transform: translateX(-300%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+ @keyframes slide-in2 {
+    from {
+      transform: translateX(-200%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-in3{
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  //BACKGROUND PARA SECCIONES EN PAGINAS "CAUSAS"
+  //"NUESTROS PROGRAMAS", "NOVEDADES Y EVENTOS" Y "SOBRE NOSOTROS"
+
+  //Se aplica en div_contenedor
+
+  @keyframes bg {
+  from {background-color: $whiteT;}
+  to {background-color: $lightYellow;}
+}
+
+// ANIMACION VIBRACION
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.img_novs:hover {
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}

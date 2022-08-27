@@ -1,0 +1,174 @@
+@import "_vars";
+
+// CONTENEDORES DE PAGINA INDEX.HTML
+
+.div_involucrarse_contenedor{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #f5BD47 ;
+	div{
+		width: 100%;
+		display: flex;
+		align-content: center;
+		flex-wrap: wrap;
+		font-size: 1.2rem;
+		font-family: $fontSec;
+		justify-content: center;
+
+	}
+}
+
+.div_icono_h1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mapas{
+	background:map-get($map:$colores,$key:'seis');
+	background:map-get($map:$colores,$key:'siete');
+}
+
+// Divs para páginas Nuestras Causas, Nuestros Programas, Novedades y eventos y Sobre nosotros 
+
+.grilla{
+	width: 90%;
+	background:map-get($map:$colores,$key:'cuatro');
+	background:map-get($map:$colores,$key:'cinco');
+	margin: 5px auto;
+	border-radius:8px;
+	padding:5px;
+		&:hover{
+		transform: scale(1.09);
+		cursor:pointer;
+	}
+}
+
+.gap {
+	gap:15px;
+}
+
+.div_45{
+	width: 47%;
+	height:auto;
+}
+
+.div_94{
+	width:94%;
+	height:auto;
+}
+
+// DIV CONTENEDOR PARA PAGINAS CAUSAS, PROGRAMAS, NOVEDADES Y EVENTOS
+// Y SOBRE NOSOTROS
+
+
+.div_contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding: 30px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $whiteT;
+	animation: bg 5s infinite;
+}	
+
+
+// GRID PAGINA NOSOTROS
+
+.contenedor{
+	display: grid;
+	gap:10px;
+	height: auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, auto);
+	grid-template-areas: 
+	"header header header"
+	"section section section"
+	"main main aside"
+	"main main aside"
+	"footer footer footer";
+}
+
+.contenedor > div,
+.contenedor .aside{
+	weigth:90%;
+	background-color: $lightYellow;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.contenedor .header{
+	grid-area: header;
+	
+}
+
+.contenedor .section{
+	grid-area: section;
+	
+}
+
+.contenedor .main{
+	grid-area: main;
+	display: flex;
+	flex-wrap: wrap;
+	padding:20px;
+}
+
+.contenedor .aside{
+	grid-area: aside;
+}
+
+.contenedor .footer{
+	grid-area: footer;
+}
+
+.imagen_principal{
+  display: flex;
+  margin: 20px;
+  width: 100%
+}
+
+.btn_involucrarse{
+	background-color: $petrol;
+	border-radius: 5px;
+	font-family: $fontSec;
+	font-size: 1.5rem;
+	margin-top: 20px;
+	color:$whiteT;
+	&:hover{
+ 		background-color: $whiteT;
+	  color:$petrol;
+	  border:none;
+ 		}
+	}
+
+
+.bg-carousel{
+	background-color: $petrol;
+}
+
+// ----------- EXTEND PARA ICONOS ------------------
+
+.icono_causas{
+	@extend .iconos; 
+	width: 30%;
+}
+
+.icono_programas{
+	@extend .iconos; 
+	width: 25%;
+	}
+
+.icono_nosotros{
+	@extend .iconos; 
+	width: 50%;	
+}
+
+

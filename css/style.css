@@ -1,0 +1,554 @@
+/*YA LO PASE A SCCS*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&display=swap');
+
+/*YA LO PASE A SCCS*/
+html{
+	font-size: 62.5%;
+
+	}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+ul {
+	list-style: none;
+	margin: auto;
+}
+
+header{
+	background: linear-gradient(60deg,#f6ac23,rgba(255, 249, 212, 1));
+
+}
+
+body{
+	background-color: #fff;
+}
+
+figcaption{
+	color: #147989 ;
+}
+
+/*--------- Propiedades de Navs --------- */
+
+/*YA LO PASE A SCCS*/
+nav ul li{
+	display: inline-block;
+	margin-right: 40px;*/
+	}
+
+/*YA LO PASE A SCCS*/
+.nav_principal--text{
+	font-family: 'Lato', sans-serif;
+	font-size: 2.2rem;
+	font-weight: 800;
+
+}
+
+/*YA LO PASE A SCCS*/
+.nav_login_donate--text{
+	color: rgba(130, 18, 44, 1);
+	font-size: 1.7rem;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+
+}
+
+/*---------Propiedades de textos--------*/
+
+/*YA LO PASE A SCCS TODOS LOS TEXTOS*/
+
+.titulo_principal--l{
+	font-size: 3.5rem;
+	font-style: bold;
+	margin: 15px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.titulo_intermedio--m{
+	font-size: 2rem;
+	font-style: bold;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.titulo_section_pages{
+	font-family: 'Merriweather', serif;
+	font-size: 2.5rem;
+
+}
+
+.titulo_section--m{
+	font-size: 1.5rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.titulos_forms{
+	font-size: 2rem;
+	color: #147989;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.parrafos{
+	font-size: 2rem;
+	line-height: 35px;
+	font-family: 'Lato', sans-serif;
+}
+
+.paginas p.parrafos{
+	margin: 20px;
+}
+
+/*-------- Propiedades de imagenes en index.html ---------*/
+
+/*YA LO PASE A SCCS*/
+.imagen_principal{
+  display: flex;
+  margin: 20px;
+  width: 100%
+
+}
+
+
+.logo-iconosize{
+	width: 250px;
+}
+
+.carousel{
+  display: flex;
+  width: 80%;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+/*YA LO PASE A SCCS*/
+.div_involucrarse_contenedor{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #f5BD47 ;
+}
+
+.div_involucrarse{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+	font-size: 1.2rem;
+	font-family: 'Merriweather', serif;
+	padding: 45px;
+	justify-content: center;
+	}
+
+/*YA LO PASE A SCCS*/
+.btn_involucrarse{
+	background-color: turquoise;
+	border-radius: 5px;
+	font-family: 'Merriweather', serif;
+	font-size: 1rem;
+	margin-top: 20px;
+	}
+
+/*YA LO PASE A SCCS*/
+.img_inv1{
+	animation: slide-in1 4000ms;
+	cursor: pointer;
+}
+
+.img_inv2{
+	animation: slide-in2 3500ms;
+	cursor: pointer;
+
+	}
+
+.img_inv3{
+	animation: slide-in3 2000ms;
+	cursor: pointer;
+	}
+
+/* --- YA LO PASE A SCSS ----- */
+
+@keyframes slide-in1 {
+    from {
+      transform: translateX(-300%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+ @keyframes slide-in2 {
+    from {
+      transform: translateX(-200%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-in3{
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+/*YA LO PASE A SCCS*/
+/* ----------- Media query 768px --------------*/
+
+@media only screen and (max-width: 768px) {
+  .div_involucrarse_contenedor{
+  display: flex;
+  flex-wrap: wrap;
+
+  }
+
+iframe{
+ 	width: 50%;
+ }
+}
+
+/*YA LO PASE A SCCS*/
+/* ----------- Media query 1366px --------------*/
+
+@media only screen and (max-width: 1366px) {
+
+	.div_involucrarse_contenedor{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	}
+
+  .div_involucrarse{
+	width: 65%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #f5BD47 ;
+	font-size: 1.2rem;
+	font-family: 'Merriweather', serif;
+	padding: 45px;
+	justify-content: center;
+
+	}
+
+  }
+
+/* ------ NO!!! LO PASE A SCCS ---------*/
+/* ------Propiedades de pagina Causas ---------- */
+
+.icono_causas{
+	width: 30%;
+	margin-bottom: 10px;
+}
+
+
+.div_contenedor_causas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding: 30px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	animation: causas 5s infinite;
+}
+
+
+/*YA LO PASE A SCCS*/
+/* ANIMACION BACKGROUND SECTION CAUSAS */
+
+@keyframes causas {
+  from {background-color: #fff;}
+  to {background-color: #ffffe0;}
+}
+
+div figure p{
+	font-size: 1.5rem;
+	font-family: 'Lato', sans-serif;
+	padding: 15px;
+}
+
+.div_grid_causas{
+	padding: 30px;
+	margin-bottom: 10px;
+
+}
+
+/* ------ Propiedades de pagina Nuestros Programas ----- */
+
+.div_contenedor_programas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding: 30px;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffe0;
+	text-align: center;
+
+}
+
+
+.icono_programas{
+	width: 25%;
+	margin-bottom: 10px;
+	}
+
+/*--------- Propiedades de pagina Nosotros ---------*/
+/*--------------- GRID + Media query ---------------*/
+
+.div_contenedor_nosotros{
+	display: flex;
+	padding: 30px;
+	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: wrap;
+	align-content: center;
+
+}
+
+
+.div_icono_h1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icono_nosotros{
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+
+.parrafos_nosotros{
+	font-size: 1.3rem;
+	line-height: 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.contenedor{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, auto);
+	grid-template-areas: 
+	"header header header"
+	"section section section"
+	"main main aside"
+	"main main aside"
+	"footer footer footer";
+}
+
+.contenedor > div,
+.contenedor .section div,
+.contenedor .aside{
+	background-color: lightgoldenrodyellow;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+.contenedor .header{
+	grid-area: header;
+	
+}
+
+.contenedor .section{
+	grid-area: section;
+	
+}
+
+.contenedor .main{
+	grid-area: main;
+	display: flex;
+	flex-wrap: wrap;
+		
+}
+
+.div_50{
+	width: 50%;
+	padding: 5px;
+
+
+}
+
+.imagen_100{
+	width: 100%;
+}
+
+.contenedor .aside{
+	grid-area: aside;
+}
+
+.contenedor .footer{
+	grid-area: footer;
+}
+
+
+/* ----------- Media query 768px --------------*/
+
+@media only screen and (max-width: 768px) {
+  .contenedor{
+  grid-template-columns: 1fr;
+	grid-template-rows: repeat(7, auto);
+  grid-template-areas: 
+	"header"
+	"section"
+	"main"
+	"main"
+	"main"
+	"aside"
+	"footer";
+
+	}
+
+	.div_50{
+		width: 100%;
+	}
+
+}
+
+/* ----------- Media query 320px --------------*/
+
+@media only screen and (max-width: 425px) {
+  .contenedor{
+  grid-template-columns: 1fr;
+	grid-template-rows: repeat(7, auto);
+  grid-template-areas: 
+	"header"
+	"section"
+	"main"
+	"main"
+	"main"
+	"aside"
+	"footer";
+		}
+
+header{
+	text-align: center;
+}	
+
+}
+
+
+/* ---- Propiedades pagina Novedades y Eventos -------- */
+
+.icono_novedades{
+	margin-bottom: 10px;
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+.img_novs:hover {
+  /* Start the vibrate animation with duration 0.5 seconds */
+  animation: vibrate 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+/*--------- Propiedades de Formularios ---------*/
+
+
+.div_forms{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}    
+  
+ .div1{
+ 	width: 25%;
+ }   
+
+.div2{
+	witdh: 25%;
+}
+
+.div3{
+	width: 50%;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #147989; 
+  color: white;
+}
+
+/*-------- Propiedades de footer --------- */
+
+.pie{
+	height: 100px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	
+}
+
+.pie_icon--sm{
+	width: 30px;
+}
+
+.pie_background{
+	background-color: #147989;
+}
+		
+.pie_align{
+	text-align: center;
+}			
+
+.pie_icon--m{
+	width: 42px;
+}

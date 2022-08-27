@@ -1,0 +1,19 @@
+// PROPIEDADES DEL FOOTER
+
+.pie{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	color:$whiteT;
+	
+}
+
+.pie_icon--sm{
+	width: 30px;
+}
+
+.pie_icon--m{
+	width: 42px;
+}			

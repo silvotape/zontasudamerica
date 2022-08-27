@@ -1,0 +1,43 @@
+// SE DEFINE EN ESTE PARTIAL LAS CLASES BASE, LOS MIXINS Y LOS MAPS
+
+//MAPS
+
+$colores:(
+	'uno': linear-gradient(60deg,$medOrange,rgba(255, 249, 212, 1)),
+	'dos': rgba(130,18,44,1),
+    'tres': linear-gradient(90deg, rgba(130,18,44,0.6783088235294117) 8%, rgba(235,183,71,1) 53%, rgba(255,222,0,1) 100%),
+    'cuatro':rgb(167,195,34),
+    'cinco': linear-gradient(0deg, rgba(167,195,34,0.31976540616246496) 69%, rgba(241,253,45,0.26094187675070024) 88%),
+	'seis': rgb(222,190,196),
+	'siete': radial-gradient(circle, rgba(222,190,196,0.7567401960784313) 0%, rgba(227,211,193,0.8323704481792717) 50%, rgba(224,221,210,0.8295693277310925) 100%));
+
+
+// ----------- CLASE BASE PARA ICONOS ------------------
+// Se llama al extend en iconos_causas, iconos_progrmas e iconos_nosotros
+
+.iconos{
+	margin-bottom: 10px;
+}
+
+// ------------------ CLASE BASE NAVBAR---------------------
+// Se llama en la clase .nav_principal--text en el partial _fonts
+
+.nav_principal{
+	font-family: $fontMain;
+	font-size: 2rem;
+	font-weight: 200;
+}
+
+// -------- MIXINS PARA TEXTOS--------------------
+
+@mixin texto-fontMain ($fontSize, $fontStyle){
+	font-size: $fontSize;
+	font-style: $fontStyle;
+	font-family: $fontMain;
+}
+
+@mixin texto-fontSec ($fontSize, $fontStyle){
+	font-size: $fontSize;
+	font-style: $fontStyle;
+	font-family: $fontSec;
+	}

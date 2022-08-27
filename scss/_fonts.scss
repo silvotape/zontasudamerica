@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&display=swap');
+
+// Extend definido en _mixins
+
+.nav_principal--text{
+	@extend .nav_principal;
+	color:$softYellow;
+	&:hover{
+		font-weight:500;
+		background-color:$softOrange;
+	}
+
+}
+
+// Map-get definido en _mixins
+
+.mizonta{
+@extend .nav_principal;
+color:map-get($map:$colores,$key:'dos');
+background-color:$softOrange;
+	&:hover{
+ 		font-weight:500;
+ 		background-color:$medOrange;
+ 		color:map-get($map:$colores,$key:'dos');
+ 		}
+ }
+
+// Includes definido en _mixins
+
+
+.titulo_principal--l{
+	@include texto-fontMain (3.5rem, bold);
+	margin: 15px;
+}
+
+.titulo_intermedio--m{
+	@include texto-fontMain (2rem, normal);
+
+}
+
+.titulo_intermedio--mbold{
+	@include texto-fontMain (2.5rem, bold);
+	}
+
+.titulo_section--m{
+	@include texto-fontMain (1.5rem, normal);
+}
+
+.parrafos{
+	@include texto-fontMain (2rem, normal);
+	line-height: 35px;
+}
+
+.parrafos_nosotros{
+	@include texto-fontMain (1.3rem, normal);
+	line-height: 25px;
+
+}
+
+.titulos_forms{
+	@include texto-fontMain (2rem, normal);
+	color: $brown;
+}
+
+.titulo_section_pages{
+	@include texto-fontSec (2.5rem, normal);
+}
+
+
