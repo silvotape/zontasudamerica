@@ -25,14 +25,15 @@ Encontraremos 8 páginas web:
 
 Se definen los siguientes partials genéricos para planificar el diseño del mismo:
 
-_header: Se definen las clases utilizadas para el encabezado de todas las páginas del sitio.
-_main: Se definen todas las clases del main de todas las páginas del sitio.
-_footer: Se definen las clases del footer para todas las páginas del sitio.
+- _header: Se definen las clases utilizadas para el encabezado de todas las páginas del sitio.
+- _main: Se definen todas las clases del main de todas las páginas del sitio.
+- _footer: Se definen las clases del footer para todas las páginas del sitio.
+
 Se definen los siguientes partials específicos:
 
-_vars: Se definen variables para definir el esquema de colores específicos y para los tipos de fuentes.
-_fonts: Se importan las fuentes de google fonts y se definen las clases para las mismas, encontrando extends de clases base e includes de mixins definidios en el partial _mixins
-_mixins: Se define un map para el esquema de colores complejos (degrades), las clases base y los mixins.
-_animaciones: Se definen todas las animaciones aplicadas en todas las páginas del sitio web.
-_mediaquerys: Se definen todos los mediaquerys y sus correspondientes adaptaciones para que el sitio web sea responsive.
-_global: Se definen las adaptaciones para etiquetas semanticas y no semanticas.
+- _vars: Se definen variables para definir el esquema de colores específicos y para los tipos de fuentes.
+- _fonts: Se importan las fuentes de google fonts y se definen las clases para las mismas, encontrando extends de clases base e includes de mixins definidios en el partial _mixins
+- _mixins: Se define un map para el esquema de colores complejos (degrades), las clases base y los mixins.
+- _animaciones: Se definen todas las animaciones aplicadas en todas las páginas del sitio web.
+- _mediaquerys: Se definen todos los mediaquerys y sus correspondientes adaptaciones para que el sitio web sea responsive.
+- _global: Se definen las adaptaciones para etiquetas semanticas y no semanticas.
