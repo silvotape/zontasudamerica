@@ -1,0 +1,6 @@
+		MEJORANDO SEO
+
+-	Se agrega meta con descripción para el contenido en todas las páginas.
+-	Se agrega meta con keywords clave para mejorar el SEO del sitio web en todas las páginas.
+-	Todas las páginas (excepto formularios) disponen de etiquetas semánticas “section” y su correspondiente H1.
+-	Se agregan descripciones en todas las etiquetas “alt” correspondientes a imágenes.
